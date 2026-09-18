@@ -1,0 +1,28 @@
+name: Broker scope request
+description: Ask Tim for a research-mcp broker permission you don't have yet.
+title: "scope request: <scope>"
+labels: ["scope-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep the title exactly as `scope request: <scope>` (for example `scope request: safecast:db:write`). Tim's grant console reads it. **Never paste a token here.**
+  - type: input
+    id: scope
+    attributes:
+      label: Scope
+      placeholder: safecast:db:write
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What you need it for
+      description: The CONTRACT task ID, and what you'll do with it.
+    validations:
+      required: true
+  - type: input
+    id: until
+    attributes:
+      label: How long you need it
+      placeholder: until 2026-10-01

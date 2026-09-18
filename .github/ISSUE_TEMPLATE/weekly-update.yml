@@ -1,0 +1,32 @@
+name: Weekly update
+description: Your sub-team's update for the week. One per sub-team, with screenshots and links.
+title: "Weekly update: <team> — <YYYY-MM-DD>"
+labels: ["weekly-update"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Prefer commenting on your team's running thread (the pinned welcome issue). Use this form only if your team keeps weekly updates as separate issues.
+  - type: textarea
+    id: done
+    attributes:
+      label: What shipped this week
+      description: PRs, deploys, results. Link them.
+    validations:
+      required: true
+  - type: textarea
+    id: next
+    attributes:
+      label: What's next
+      description: The CONTRACT task IDs you're picking up.
+    validations:
+      required: true
+  - type: textarea
+    id: blockers
+    attributes:
+      label: Blockers
+      description: What you need, and from whom. Tag them.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
