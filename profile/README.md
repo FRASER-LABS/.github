@@ -9,8 +9,8 @@
 Fraser Labs is Tim Fraser's research group in the Systems Engineering program at
 Cornell University. We build the databases, APIs, models and dashboards that let
 cities, agencies and the public answer environmental questions with real data:
-Is the air getting cleaner? What do our roads emit? What is the radiation level
-where I live?
+Is the air getting cleaner? What do our roads emit? Which neighborhoods have the
+community spaces that help people weather a disaster?
 
 Our users are local decision-makers, planners, researchers and residents: people
 who need a clear answer and can't run a heavyweight model themselves.
@@ -46,14 +46,17 @@ reproduce it behind fast APIs, and the Climate Action in Transportation (CAT)
 platform puts those estimates in a dashboard any county or city can use.
 Try it at **[cat-apps.com](https://cat-apps.com)**.
 
-### Environmental radiation sensing: SAFECAST
+### Social infrastructure: the community spaces that hold cities together
 
-<img src="img/safecast.jpg" alt="Illustration of a crowdsourced radiation map" width="420" align="right">
+<img src="img/social-infrastructure.jpg" alt="Map of social infrastructure sites across New York City" width="420" align="right">
 
-[Safecast](https://safecast.org) volunteers have collected millions of radiation
-readings since 2011 and release them as open data (CC0). We are rebuilding a
-fast public map and API over that open dataset, so anyone can explore the
-measurements near them.
+Parks, libraries, places of worship and community centers are where neighbors
+build the ties that carry them through disasters. We map and score these civic
+spaces across Boston, Fukuoka and the 25 largest US cities, then link those
+scores to hazard exposure and evacuation behavior, so planners can see which
+neighborhoods are rich in community space and which are not. The Boston study is
+published in *Urban Climate*
+([paper](https://doi.org/10.1016/j.uclim.2022.101287)).
 
 <br clear="right">
 
@@ -94,6 +97,4 @@ to environmental crises.
 
 <sub>Text and images adapted from Tim's own site,
 [timothyfraser.com](https://timothyfraser.com)
-(source: [timothyfraser/timothyfraser.github.io](https://github.com/timothyfraser/timothyfraser.github.io)).
-The Safecast image is an illustration, not live data; Safecast data is published
-by [Safecast](https://safecast.org) under CC0.</sub>
+(source: [timothyfraser/timothyfraser.github.io](https://github.com/timothyfraser/timothyfraser.github.io)).</sub>
